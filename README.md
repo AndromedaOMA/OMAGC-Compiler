@@ -1,5 +1,3 @@
 LFAC - compiler
 
-Students:
-  -Olaru Marius-Alexandru
-  -Garbia Cosmin
+Students: Olaru Marius-Alexandru and Garbia Cosmin
