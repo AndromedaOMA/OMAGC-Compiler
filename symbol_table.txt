@@ -1,0 +1,39 @@
+
+======================== CLASS TABLE: ========================
+
+class_name: C1
+data_type : class_variable , name : elem , value : NULL
+data_type : int , name : e1 , value : 1
+data_type : int , name : e2 , value : 15
+data_type : float , name : e3 , value : 90.0
+data_type : float , name : e4 , value : 9.99
+
+======================== SYMBOL TABLE: ========================
+
+data_type: int, name: a, value:1, scope:global
+data_type: int, name: b, value:2, scope:global
+data_type: int, name: c, value:-6, scope:global
+data_type: int, name: globalVariable, value:6, scope:global
+data_type: string, name: String1, value:Olaru, scope:global
+data_type: string, name: String2, value:Marius, scope:global
+data_type: string, name: String3, value:Alexandru, scope:global
+data_type: int, name: TypeOf01, value:integer, scope:function
+data_type: int, name: Eval01, value:69, scope:function
+data_type: int, name: d, value:5, scope:global
+data_type: bool, name: variableDeclaredInIfStatement, value:TRUE, scope:if
+data_type: int, name: testIfIfStatementSavesVariable, value:111, scope:if
+data_type: bool, name: varialeDeclaredInElseStatement, value:FALSE, scope:if
+data_type: int, name: testIfElseStatementSavesVariable, value:1, scope:if
+data_type: int, name: v, value:2, scope:global
+data_type: bool, name: variableDeclaredInWhileLoop, value:TRUE, scope:while
+data_type: float, name: testIfWileSavesVariable, value:12.4, scope:while
+data_type: int, name: v1, value:0, scope:global
+data_type: int, name: v2, value:0, scope:global
+data_type: int, name: i, value:0, scope:for
+data_type: bool, name: variableDeclaredInForLoop, value:TRUE, scope:for
+data_type: float, name: testIfForSavesVariable, value:500.005, scope:for
+data_type: int, name: Eval02, value:7, scope:function
+
+======================== ARRAY TABLE: ========================
+
+data_type: int, name: testArray, no_elements: 20, scope: global values:[ 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 ]

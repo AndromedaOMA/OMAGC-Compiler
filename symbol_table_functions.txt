@@ -1,0 +1,19 @@
+
+======================== FUNCTIONS TABLE: ========================
+
+data_type: int, name: check_nr, scope: global
+
+     FUNCTION VARIABLES: 
+     scope: antet, data_type : int, name : a, value : NULL
+     scope: antet, data_type : int, name : b, value : NULL
+     scope: antet, data_type : int, name : c, value : NULL
+     scope: function, data_type : int, name : intFunctionVariable, value : 10
+
+data_type: float, name: check_nr, scope: global
+
+     FUNCTION VARIABLES: 
+     scope: antet, data_type : int, name : a, value : NULL
+     scope: antet, data_type : int, name : b, value : NULL
+     scope: antet, data_type : int, name : c, value : NULL
+     scope: function, data_type : int, name : globalVar, value : 6
+     scope: function, data_type : float, name : z, value : 5.5

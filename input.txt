@@ -1,0 +1,96 @@
+C1 class elem{
+  int e1;
+  int e2;
+  float e3; 
+  float e4;
+};
+
+elem <- e1=10;
+elem <- e2=15;
+elem <- e3=90.0;
+elem <- e4=9.99;
+
+elem <- e1=1;
+
+int a=1;
+int b=2;
+int c=a-b*3+4-5;
+int globalVariable=6;
+
+
+function int check_nr (3, int a, int b, int c)
+{  
+  int intFunctionVariable=10;
+}
+
+function float check_nr (3, int a, int b, int c)
+{ 
+  int globalVar=6;
+  float z=5.5;
+  Print ("Test if functions has access to global variables. ", globalVar); 
+  Print ("Test if functions saves variable. ", z);
+}
+
+string String1 = "Olaru";
+string String2 = "Marius";
+string String3 = "Alexandru";
+
+call check_nr(a, b, 7+2);
+call check_nr(call check_nr(a+2, 2+4, c+5));
+
+int TypeOf01=TypeOf(a+b);
+int Eval01=Eval(200/10+5*10-1);
+
+MAIN()
+{
+
+Print ("Simple variable print ",c);
+
+
+array int testArray[20];
+array testArray[2]=2;
+array testArray[10]=2;
+Print ( "Arrays work. ",testArray[2]);
+
+
+int d=3*0+5;
+Print ("Test value ", d);
+
+if(c>12 || a >= 1 || b<11)
+{
+  bool variableDeclaredInIfStatement = TRUE;
+  int testIfIfStatementSavesVariable=111;
+  Print ("IF statement works with local variables. ", testIfIfStatementSavesVariable);
+  Print ("IF statement works with local global variables. ", globalVariable);
+
+}
+else
+{
+  bool varialeDeclaredInElseStatement = FALSE;
+  int testIfElseStatementSavesVariable=10/10;
+  Print ("ELSE statement works. ",testIfElseStatementSavesVariable);
+}
+
+int v=2;
+
+while(v == 2)
+{   
+    bool variableDeclaredInWhileLoop = TRUE;
+    float testIfWileSavesVariable = 12.4;
+    Print ( "WHILE loop works " , testIfWileSavesVariable);
+}
+
+int v1=0;
+int v2=0;
+
+for(int i = v1, i <=v2, i=i+1)
+{   
+    bool variableDeclaredInForLoop = TRUE;
+    float testIfForSavesVariable = 500.005;
+    Print ("FOR loop works. ", testIfForSavesVariable);
+}
+
+Print ("Test the Eval() function. ", Eval01);
+int Eval02=Eval(1+1*4+2);
+Print ("Test the Eval() function. ", Eval02);
+}
